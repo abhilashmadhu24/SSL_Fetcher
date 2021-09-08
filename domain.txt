@@ -1,1 +1,4 @@
-
+yahoo.com
+google.com
+facebook.com
+ktu.edu.in
