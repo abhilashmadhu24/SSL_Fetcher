@@ -11,8 +11,8 @@ echo "
 
 							  "
 
-#>domains
-#cat /etc/trueuserdomains | cut -d: -f1 >> domains   #uncomment these two lines, if this is cpanel server
+#>domain.txt
+#cat /etc/trueuserdomains | cut -d: -f1 >> domain.txt  #uncomment these two lines, if this is cpanel server
 
 DATE=$(date +"%Y-%m-%d")
 
@@ -20,7 +20,7 @@ DATE=$(date +"%Y-%m-%d")
 
 echo " SSL status Checked on $DATE " >> results.txt
 
-for i in `cat domains`;
+for i in `cat domain.txt`;
 
 do
 
