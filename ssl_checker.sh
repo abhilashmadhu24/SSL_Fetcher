@@ -1,5 +1,5 @@
 #Author Abhilash
-#/bin/bash
+#!/bin/bash
 
 figlet -ctk SSL CHECKER
 
