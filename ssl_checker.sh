@@ -1,10 +1,18 @@
 #Author Abhilash
-#!/bin/bash
+#/bin/bash
 
-figlet -ctk SSL CHECKER
+echo "
 
-#>domain.txt
-#cat /etc/trueuserdomains | cut -d: -f1 >> domain.txt   #uncomment these two lines, if this is cpanel server
+						                                        ____  ____   _        ____  _   _  _____  ____  _  __ _____  ____  
+                                                   / ___|/ ___| | |      / ___|| | | || ____|/ ___|| |/ /| ____||  _ \ 
+                                                   \___ \\___ \ | |     | |    | |_| ||  _| | |    | ' / |  _|  | |_) |
+                                                    ___) |___) || |___  | |___ |  _  || |___| |___ | . \ | |___ |  _ < 
+                                                   |____/|____/ |_____|  \____||_| |_||_____|\____||_|\_\|_____||_| \_\
+
+							  "
+
+#>domains
+#cat /etc/trueuserdomains | cut -d: -f1 >> domains   #uncomment these two lines, if this is cpanel server
 
 DATE=$(date +"%Y-%m-%d")
 
@@ -12,7 +20,7 @@ DATE=$(date +"%Y-%m-%d")
 
 echo " SSL status Checked on $DATE " >> results.txt
 
-for i in `cat domain.txt`;
+for i in `cat domains`;
 
 do
 
@@ -33,6 +41,13 @@ echo "--------------------------------------------------------------" >> results
 
 done
 
-cat results.txt  # From here, your mail code can be added
+cat results.txt
 
-figlet -ctk THANK YOU !
+echo "
+
+                                                       _____  _   _     _     _   _  _  __ __   __ ___   _   _   _ 
+                                                      |_   _|| | | |   / \   | \ | || |/ / \ \ / // _ \ | | | | | |
+                                                        | |  | |_| |  / _ \  |  \| || ' /   \ V /| | | || | | | | |
+                                                        | |  |  _  | / ___ \ | |\  || . \    | | | |_| || |_| | |_|
+                                                        |_|  |_| |_|/_/   \_\|_| \_||_|\_\   |_|  \___/  \___/  (_)
+"
