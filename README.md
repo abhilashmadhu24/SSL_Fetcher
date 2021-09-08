@@ -12,7 +12,7 @@ chmod +x ssl_checker.sh
 ./ssl_checker.sh
 ```
 
-If the host server is cPanel hosted and need to fetch SSL status of domains from that server, just uncomment line number 6 and 7 from script file.
+If the host server is cPanel hosted and need to fetch SSL status of domains from that server, just uncomment line number 14 and 15 from script file.
 
 
 #OUTPUT
