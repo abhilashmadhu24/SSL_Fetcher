@@ -17,7 +17,7 @@ If the host server is cPanel hosted and ned to fetch SSL status of domains from 
 
 #OUTPUT
 
-      ![ssl](https://user-images.githubusercontent.com/50264439/132498436-03632059-50fb-4965-8738-1b52954722d1.png)
+   ![ssl](https://user-images.githubusercontent.com/50264439/132498436-03632059-50fb-4965-8738-1b52954722d1.png)
    
                                                        
                                                        
